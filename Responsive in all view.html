@@ -1,0 +1,177 @@
+<section class="chef-slider-section" style="background-image: url('{{ section.settings.chef_slider_bg | img_url: 'master' }}');">
+        <div class="container">
+          <div class="chef-slider">
+            {% for block in section.blocks %}
+                <div class="chef-detail">
+                    <img class="chef-image" src="{{ block.settings.chef_image | img_url: 'master' }}">
+                    <h3>{{ block.settings.chef_detail }}</h3>
+                    <img src="{{ block.settings.chef_logo | img_url: 'master' }}">
+                    <h4>{{ block.settings.chef_slider_title }}</h4>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+</section>
+<!-- chef-slider js -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.chef-slider').slick({
+      arrows: false,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+  });
+</script>
+
+{% schema %}
+{
+   "name": "chef-slider",
+    "settings": [
+		{
+            "type": "image_picker",
+            "id": "chef_slider_bg",
+            "label": "chef-slider bg"
+        }
+    ],
+
+    "blocks": [
+     {      
+        "type" : "select",
+        "name" : "Details",
+        "settings" :[
+            {
+                 "type": "image_picker",
+                  "id": "chef_image",
+                  "label": "chef image"
+            },
+            {
+                "type": "richtext",
+                "id": "chef_detail",
+                "label": "chef detail"
+            },
+            {
+                "type": "image_picker",
+                "id": "chef_logo",
+                "label": "chef logo"
+            },
+            {
+                "type": "text",
+                "id": "chef_slider_title",
+                "label": "chef title"
+            }
+            
+        ]
+     }
+    ],
+    
+    "presets" : [
+        {
+            "name" : "chef-slider section",
+            "category" : "text"
+        }
+  	]
+  }
+{% endschema %}
+
+
+<section class="chef-slider-section" style="background-image: url('{{ section.settings.chef_slider_bg | img_url: 'master' }}');">
+        <div class="container">
+          <div class="chef-slider">
+            {% for block in section.blocks %}
+                <div class="chef-detail">
+                    <img class="chef-image" src="{{ block.settings.chef_image | img_url: 'master' }}">
+                    <h3>{{ block.settings.chef_detail }}</h3>
+                    <img src="{{ block.settings.chef_logo | img_url: 'master' }}">
+                    <h4>{{ block.settings.chef_slider_title }}</h4>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+</section>
+<!-- chef-slider js -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.chef-slider').slick({
+      arrows: false,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1
+      // autoplay: true,
+      // autoplaySpeed: 2000,
+    });
+  });
+</script>
+
+{% schema %}
+{
+   "name": "chef-slider",
+    "settings": [
+		{
+            "type": "image_picker",
+            "id": "chef_slider_bg",
+            "label": "chef-slider bg"
+        }
+    ],
+
+    "blocks": [
+     {      
+        "type" : "select",
+        "name" : "Details",
+        "settings" :[
+            {
+                 "type": "image_picker",
+                  "id": "chef_image",
+                  "label": "chef image"
+            },
+            {
+                "type": "richtext",
+                "id": "chef_detail",
+                "label": "chef detail"
+            },
+            {
+                "type": "image_picker",
+                "id": "chef_logo",
+                "label": "chef logo"
+            },
+            {
+                "type": "text",
+                "id": "chef_slider_title",
+                "label": "chef title"
+            }
+            
+        ]
+     }
+    ],
+    
+    "presets" : [
+        {
+            "name" : "chef-slider section",
+            "category" : "text"
+        }
+  	]
+  }
+{% endschema %}
+
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis  dictum elit eu placerat. Nullam vel pellentesque tortor.
+
+
+Wayne Rooney
+
+<style type="text/css">
+	body{
+
+	}
+</style>
