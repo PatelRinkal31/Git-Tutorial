@@ -1,0 +1,466 @@
+
+*{
+	font-family: 'Elsie', cursive;
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+}
+/*HEADER START */
+.navbar-brand img{
+	margin-left: 80px;
+}
+.navbar-nav a:hover{
+	color: orange !important;
+	font-family: font-family: 'Elsie Swash Caps', cursive;
+}
+/*HEADER END */
+
+/* START BANNER-SECTION */
+.banner-section{
+	background-image: url('image/bg1.jpg');
+	text-align: center;
+}
+.row{
+	color: white;
+}
+.banner-section .row h1{
+	font-size: 61px;
+	padding: 205px 0 30px;
+}
+.row img{
+	background: transparent;
+}
+.banner-section p{
+	font-size:20px;
+	padding: 31px 0 370px;
+	color: white;
+	letter-spacing: 2px;
+	font-family: 'Open Sans', sans-serif;
+}
+/* END BANNER-SECTION */
+
+
+/* START discover-our-story *******/
+.discover-our-story h2{
+	font-size: 50px;
+	font-family: 'Sofia', regular;
+	margin-top: 70px;
+	margin-bottom: 90px; 
+	}
+.discover-our-story .col-4{
+	color: black;
+}
+.discover-our-story p{
+	font-size: 16px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.discover-our-story h3{
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+}
+h6 
+{	font-size: 30px;
+	padding-top: 20px;
+    max-width: 600px;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+}
+h6:before 
+{
+  	content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: gray;
+    left: 0;
+    top: 70%;
+    position: absolute;
+}
+h6:after
+{
+  	content: "";
+    display: block;
+    width: 100px;
+   	height: 2px;
+    background: gray;
+    right: 0;
+    top: 70%;
+    position: absolute;
+}
+/* END discover-our-story */
+
+/******** START our-service-section ************/
+.our-service-section{
+	background-image: url('image/bg2.jpg');
+	margin-top: 100px;
+	background-repeat: no-repeat;
+	padding-bottom: 165px;
+	background-size: cover;
+}
+.our-service-section h2{
+	padding: 115px 0;
+	font-size: 46px;
+}
+.our-service-section h3{
+	font-size: 45px;
+	padding-top: 25px;
+}
+.our-service-section p{
+	font-family: 'Josefin Sans';
+	font-size: 21px;
+	padding-top: 20px;
+	color: white;
+	
+}
+/* END */
+
+
+/* START */
+.todays-special-section{
+	padding-bottom: 100px;
+}
+.todays-special-section h3{
+	color: black;
+	padding-top: 90px;
+	font-family: 'Sofia', regular;
+	padding-bottom: 50px;
+	font-size: 45px;
+}
+.todays-special-section span{
+	color: white;
+	top: 40%;
+	left:35%;
+	font-size: 40px;
+	font-family: 'Playball', cursive; 
+}
+.todays-special-section span:hover{
+	color: orange;
+}
+/* END */
+
+
+/* START our-special-section */ 
+.our-special-section{
+	background-image: url('image/special-bg.jpg');
+	padding-bottom: 70px;
+}
+.our-special-section h4{
+	color: black;
+	font-size: 50px;
+	padding: 100px 0 70px;
+	font-family: 'Sofia', regular;
+}
+.our-special-section .col-8 span{
+	color: black;
+}
+.our-special-section .col-8 p{
+	color: black;
+}
+.our-special-section .col-10 p{
+	padding-bottom: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	color: black;
+	vertical-align: top;
+}
+.our-special-section .col-3 img{
+	/*padding-right: 100px;*/
+	padding-bottom: 30px;
+}
+.our-special-section .col-9 p b{
+	font-size: 20px;
+	font-family: 'Lora', bold;
+}
+.our-special-section .col-9 p{
+	margin: 0;
+	font-family: 'ABeeZee', sans-serif;
+}
+.our-special-section .col-9 p span{
+	color: orange;
+	font-family: 'ABeeZee', sans-serif;
+	font-size:25px;
+	padding-right: 40px;
+
+}
+/* END  our-special-section */  
+
+
+/* START */
+.food-order-slider{
+	background-image: url(image/slider-1.jpg);
+	background-size: cover;
+}
+.food-order-slider .carousel-caption img{
+	padding-bottom: 20px;
+	padding-top: 38px;
+}
+.carousel-caption{
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.carousel-item p{
+	text-align: center;
+	font-family: 'Lora', bold;
+	margin:0 auto !important;
+}
+/* END */
+
+
+/* START */
+.our-team-section .row{
+	padding-bottom: 100px;
+}
+.our-team-section h2
+{
+	color: black;
+	font-family: 'Sofia', regular;
+	font-size: 40px;
+	padding: 70px 0;
+}
+.our-team-section h3{
+	padding-top: 30px;
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 23px;
+}
+.our-team-section h4{
+	font-family: 'ABeeZee', sans-serif;
+	font-size: 15px;
+}
+.our-team-section p{
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	padding-left:10px;
+	padding-right: 10px;
+}
+/** END ****/
+/************************************ THR RESTURANT GALLARY ********************/
+.restaurant-gallary-section h2{
+	font-family: 'Sofia', regular;
+	font-size: 50px;
+	padding-bottom: 40px;
+}
+/************************* END ************************************************/
+
+/* START ******/
+.book-a-table-section h2{
+	padding-top: 50px;
+	color: black;
+	font-size: 50px;
+	font-family: 'Sofia', regular;
+}
+.book-a-table-section .row{
+	padding-bottom: 60px;
+}
+.book-a-table-section .row{
+	padding-top: 20px;
+}
+.book-a-table-section button{
+	color: white;
+}
+.book-a-table-section input{
+	font-family: 'ABeeZee', sans-serif;
+}
+.book-a-table-section .dropdown{
+	font-family: 'ABeeZee', sans-serif;
+}
+.book-a-table-section button{
+	font-family: 'ABeeZee', sans-serif;
+}
+/******* END ******/
+
+/**************** FOOTER START***************************/
+.advertize{
+	background-color: #4a4646;
+}
+.advertize i{
+	font-size: 20px;
+}
+.advertize p{
+	font-size: 15px;
+	font-family: 'ABeeZee', sans-serif;
+}
+.advertize span{
+	font-size: 12px;
+}
+.advertize h5{
+	font-family: 'Sofia', regular;
+	font-size:35px;
+}
+.advertize p{
+	text-align: center;
+	font-size: 15px;
+	font-family: 'ABeeZee', sans-serif;
+}
+.advertize p span{
+	color: orange;
+}
+/************************* END ************************/
+
+
+/************************ MEDIA QUERY *****************/
+@media screen and  (max-width: 991px){
+	
+	h6 
+{	font-size: 30px;
+	padding-top: 20px;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+}
+h6:before 
+{
+  	content: "";
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: gray;
+    left: 0;
+    top: 70%;
+    position: absolute;
+}
+h6:after
+{
+  	content: "";
+    display: block;
+    width: 25px;
+   	height: 2px;
+    background: gray;
+    right: 0;
+    top: 70%;
+    position: absolute;
+}
+.discover-our-story h2{
+	font-size: 40px;
+	margin: 30px 0 0;
+}
+.our-service-section{
+	padding-bottom: 80px;
+}
+.our-service-section h2{
+	padding: 70px 0;
+	font-size: 35px;
+}
+.our-service-section h3{
+	font-size: 30px;
+	padding-top: 15px;
+}
+.our-service-section p{
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+.todays-special-section{
+	padding-bottom: 20px;
+}
+.todays-special-section h3{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.todays-special-section span{
+	font-size: 25px;
+}
+.our-team-section .row{
+	padding-bottom: 40px;
+}
+.our-special-section h4{
+	padding: 30px 0 25px;
+	font-size: 40px;
+}
+.our-special-section .col-9 p b
+{
+	font-size: 18px;
+}
+.our-special-section .col-9 p span{
+	font-size: 20px;
+}
+.our-team-section h2{
+	font-size: 35px;
+	padding: 40px 0;
+}
+.our-team-section h3{
+	font-size: 20px;
+}
+.our-team-section p{
+	font-size: 18px;
+}
+.restaurant-gallary-section img{
+	max-width: 100%;
+}
+
+.restaurant-gallary-section h2{
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+.col-md-4{
+	padding: 10px;
+	margin: 0;
+}
+.book-a-table-section h2{
+	padding-top: 30px;
+	font-size: 40px;
+}
+.book-a-table-section .row{
+	padding-top: 20px;
+}
+.advertize i{
+	font-size: 20px;
+}
+.advertize h5{
+	font-size: 25px;
+}
+.advertize p{
+	font-size: 13px;
+}
+}
+@media screen and  (max-width: 425px){
+	h6 
+{	font-size: 30px;
+	padding-top: 20px;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+}
+h6:before 
+{
+  	content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: gray;
+    left: 0;
+    top: 70%;
+    position: absolute;
+}
+h6:after
+{
+  	content: "";
+    display: block;
+    width: 100px;
+   	height: 2px;
+    background: gray;
+    right: 0;
+    top: 70%;
+    position: absolute;
+}
+.discover-our-story p{
+	font-size: 16px;
+}
+.advertize h3{
+	padding-top: 10px !important;
+}
+.advertize h5{
+	padding-top: 10px !important;
+	font-size: 10px !important;
+}
+.our-special-section .col-9 p b{
+	font-size: 16px;
+}
+.our-special-section .col-9 p{
+	font-size: 14px;
+}
+.our-special-section .col-9 p span{
+	font-size: 20px;
+}
+}
